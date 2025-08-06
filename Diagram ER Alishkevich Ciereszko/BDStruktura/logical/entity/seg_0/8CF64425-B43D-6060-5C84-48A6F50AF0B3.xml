@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CF64425-B43D-6060-5C84-48A6F50AF0B3" name="Battles">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 10:49:00 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Battle_id" id="D748238E-315B-B0A1-CF09-9F4CF3282133">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-17 08:36:55 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Battle_date" id="350162BC-87FF-BF94-7680-D975E920E7C8">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-17 08:37:08 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Battle_result" id="AFB8B832-A547-CAFC-E59E-AB07DDBB65F2">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-17 08:37:31 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Damage_dealt" id="A2FF94BB-29A8-565E-85E8-DD422703CC58">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-17 08:37:59 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Damage_taken" id="CEDFF4EE-7442-4363-A991-BF00F43658E2">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-17 08:38:14 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Character_Id" id="7C90FB09-3E72-80ED-AEE6-0CE0BBA6B5EC">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 11:05:35 UTC</createdTime>
+<generatorID>82CB1EE8-9F68-7D60-56C1-F7BD0484D946</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<referedAttribute>BA43B910-6BF6-0D48-1302-E8B2886AB7D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Monster_id" id="3861A3E6-6289-59FC-093F-68B985A7BA5A">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-17 08:36:13 UTC</createdTime>
+<generatorID>D26DD3D3-53D2-4D75-4ABA-B338E10ED989</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<referedAttribute>627EFF58-C33B-F169-15F6-C0E25BEEAD5E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Location_id" id="9F17B3F1-F2E4-1CAE-C313-C317CE496F71">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-17 08:42:06 UTC</createdTime>
+<generatorID>CFE856AB-FA5D-8EDC-9590-FBA39D135393</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<referedAttribute>6D0055C4-8C88-8E58-9F11-D8C5B3D929EA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BE8E7BBD-E72F-744C-68C8-DB18AF2C2642" name="Battles PK">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-17 08:37:04 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D748238E-315B-B0A1-CF09-9F4CF3282133</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

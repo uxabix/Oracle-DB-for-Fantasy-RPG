@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BDStruktura" id="9250E418-81F6-3C6C-996A-C8CE5BBDB0DF" version="3.5">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-12 19:57:54 UTC</createdTime>
+<ownerDesignName>BDStruct1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9250E418-81F6-3C6C-996A-C8CE5BBDB0DF</designId>
+</OSDM_Design>

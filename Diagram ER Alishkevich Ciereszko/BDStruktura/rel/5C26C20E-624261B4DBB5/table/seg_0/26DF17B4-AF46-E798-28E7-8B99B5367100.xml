@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26DF17B4-AF46-E798-28E7-8B99B5367100" name="Races">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>DE9CDE87-90C4-57C9-68E9-D7CBCC937B48</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Race_id" id="31D31BE8-52A0-ADEE-749F-F39165F06F9A">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>7DEE8313-9704-DF82-DA1B-84CD9FE69B3B</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Race_name" id="533C3B4E-A9FB-7D79-8E70-8425F0B519AF">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>57462643-9EB6-9F66-13EC-AC38C99F70BD</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="96EB5E23-7B0C-1279-8E7E-A25841847081">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>82C9BEC8-A784-60F2-9011-EA934CDD8453</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5ABD503F-2195-38E0-1511-6C47033DF53B" name="Races_PK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>5C4CB359-A1CB-D482-CDF8-FE4B89C62119</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31D31BE8-52A0-ADEE-749F-F39165F06F9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

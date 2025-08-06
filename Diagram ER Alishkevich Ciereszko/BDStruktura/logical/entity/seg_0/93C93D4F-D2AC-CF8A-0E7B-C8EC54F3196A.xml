@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="93C93D4F-D2AC-CF8A-0E7B-C8EC54F3196A" name="Character_Attributes">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 10:55:26 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Attributes_id" id="DB587B5C-1D96-48AA-B2E9-C10BC5A92E61">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 21:48:06 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Strength" id="9A84EE72-36BF-103E-F529-B26BA82E19BC">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 10:55:58 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Agility" id="3F298707-ED19-674D-F08F-22DC71EBE731">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 10:56:03 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Intelligence" id="ED1E9834-ECCD-8598-F0BA-75E50C6E646F">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 10:56:06 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Character_Id" id="3BF551F8-9EEF-6768-C1E4-D004B16C0EDF">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 10:56:48 UTC</createdTime>
+<generatorID>D338E3A8-6481-FD12-C566-C4C33DDF0B2A</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<referedAttribute>BA43B910-6BF6-0D48-1302-E8B2886AB7D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C6E24286-FF8E-F911-B9FF-E1D7DF5D782F" name="Character_Attributes PK">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 21:50:12 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DB587B5C-1D96-48AA-B2E9-C10BC5A92E61</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

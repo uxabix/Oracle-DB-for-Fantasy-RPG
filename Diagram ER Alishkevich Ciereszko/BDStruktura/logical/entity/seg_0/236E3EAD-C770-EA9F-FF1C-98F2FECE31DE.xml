@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="236E3EAD-C770-EA9F-FF1C-98F2FECE31DE" name="Dungeons">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 10:49:48 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Dungeon_id" id="FC0E4121-301F-9F84-F090-64A79890CA2C">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-17 08:58:12 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dungeon_name" id="1ABA0867-421C-BA9F-48B7-0ACD15D35464">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-17 08:58:22 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Monster_id" id="5E2D8D10-9A66-EE24-69F7-EC555F6D9616">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-17 08:36:13 UTC</createdTime>
+<generatorID>9F6E8C8A-3BA5-A6C2-FDB3-9DF85F0FD0BF</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<referedAttribute>627EFF58-C33B-F169-15F6-C0E25BEEAD5E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Location_id" id="137EE3CE-2ABE-C537-5216-9EAA1368450E">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-17 08:57:06 UTC</createdTime>
+<generatorID>E6852C7B-9BCE-43D5-BED6-4F667008EE4B</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<referedAttribute>6D0055C4-8C88-8E58-9F11-D8C5B3D929EA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="17438C4A-7506-1B52-4344-3B79D428D642" name="Dungeons PK">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-17 08:58:20 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FC0E4121-301F-9F84-F090-64A79890CA2C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

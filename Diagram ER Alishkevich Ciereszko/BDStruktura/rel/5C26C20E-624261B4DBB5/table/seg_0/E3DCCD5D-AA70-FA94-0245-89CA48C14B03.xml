@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3DCCD5D-AA70-FA94-0245-89CA48C14B03" name="Achivements">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>517216B6-C3F9-F5B1-A78F-2CCA7AFFDAAD</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Achivement_id" id="264D4B7A-2648-9780-0C68-946015307A3F">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>28AFD4D9-8C5C-68FC-644A-F659CAD4FC36</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Achivement_name" id="01F87843-EC5E-27F5-51A6-93B0D32FE0D7">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>A9114F90-664B-AF8E-C1C7-ACEE283077EE</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="ADACF636-5E5D-008E-282E-966A88708613">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>913C9C75-4773-8DD5-DEE2-9E16E3E5036D</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Experience_reward" id="4D557EEC-E9FF-F0A5-3BC0-E29631192E64">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>EA779601-8C25-32F1-F2AA-18C1AAAE2002</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D9BCEBB6-A2E9-40BA-E0C6-22D1AC737420" name="Achivements_PK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>33956057-98B6-0431-1357-C9F386F4F565</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="264D4B7A-2648-9780-0C68-946015307A3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

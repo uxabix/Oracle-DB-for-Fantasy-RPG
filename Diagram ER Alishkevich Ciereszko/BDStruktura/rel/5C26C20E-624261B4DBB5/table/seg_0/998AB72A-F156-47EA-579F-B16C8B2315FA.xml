@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="998AB72A-F156-47EA-579F-B16C8B2315FA" name="Shops">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>1F4489DF-D6D2-3E83-2113-39EC7B8E129B</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Shop_id" id="DD472D86-344C-E74A-0895-A9FDD3879937">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>7765951C-F951-A784-A462-8D2CEF9F1B31</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Shop_name" id="0CBFB5D0-356F-BE19-7358-3572AD4FE79A">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>033A71A0-0F02-F924-3DCD-8752C81AB9A5</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Owner_name" id="D5EB5909-C6AD-A575-4D17-5FE1A083B775">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>837706A6-F5FA-EFE9-017E-64CED59C24B4</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Greeting_message" id="E94F284B-F872-BFCC-960D-9E7034C1474B">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>38C40783-4DC4-35D0-A68C-DA3C329749B9</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Locations_Location_id" id="C80307B7-FB14-EC35-94A8-CE7199059C1F">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>7E127A80-47BB-407F-C12A-BF978376659B</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32711592-5AB9-1C5C-54F0-862C82E02D09" referredColumn="4578E228-F91A-B044-E3E1-F869B8680D08"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7CD9894B-4C42-2770-9F11-9CCD5F88158D" name="Shops_PK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>7DCC63EF-5C48-9331-718A-3C163147FD7D</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD472D86-344C-E74A-0895-A9FDD3879937"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C2DAAC2-5290-803D-1ADB-DB24242351DA" name="Shops__IDX">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EF53E0B7-3C92-3FF7-A77C-3593AAFF92B7</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C80307B7-FB14-EC35-94A8-CE7199059C1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7ACDDF17-FDE2-C3A8-09E6-C8059CEDA538" name="Shops_Locations_FK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>EF53E0B7-3C92-3FF7-A77C-3593AAFF92B7</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C80307B7-FB14-EC35-94A8-CE7199059C1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

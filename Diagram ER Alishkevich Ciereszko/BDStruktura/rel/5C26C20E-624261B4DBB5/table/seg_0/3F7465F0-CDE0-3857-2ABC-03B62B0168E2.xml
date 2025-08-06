@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F7465F0-CDE0-3857-2ABC-03B62B0168E2" name="Locations">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>C6E8BA2B-FEEA-01B7-3B0C-3B5EAD253896</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Location_id" id="4578E228-F91A-B044-E3E1-F869B8680D08">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>6D0055C4-8C88-8E58-9F11-D8C5B3D929EA</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Location_name" id="BD82C1C7-C816-A950-F840-67C794220F89">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>A2EF37D3-179F-855A-6505-97A5E9C3F758</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="X" id="7F80D172-0A0C-413F-4069-3AF1A2813777">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>8AC365C2-35B3-CE16-4FF4-46473B32E6E2</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Y" id="35D337C7-EA7D-3DC7-7CD3-B460A078CCEC">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>DE8B2D47-6B4C-F43C-AB1D-23089CFA18FD</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Z" id="67BFA27B-5605-AF21-E2B2-9F0B25C5B7DD">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>F385A4E4-C006-DD80-25D6-D9242EEF72C2</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Radius" id="0C9E21CF-164E-1BC8-68DA-4B553509E856">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>25ED2FF1-284A-B395-FF6F-1FDCFF44FE8B</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Towns_Town_id" id="337CC904-F3FD-8DC6-7718-EF0516FC5B88">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>5BD0531F-1355-8920-4601-A41D9F51D9C2</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29089994-BE27-B0FD-364A-E1514E870B6E" referredColumn="86854FF4-9D11-2324-9AF5-B443A49F16D3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B801D6E1-65A3-5989-7363-C038F045403F" name="Locations_PK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>19E7A0F6-6C28-A525-92A9-C53E5035DED8</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4578E228-F91A-B044-E3E1-F869B8680D08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="719F5D4D-1632-67C1-6206-C5C1DCDABABC" name="Locations_Towns_FK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>16ED274F-67D6-46D4-4538-F0B1501E592B</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="337CC904-F3FD-8DC6-7718-EF0516FC5B88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

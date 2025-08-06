@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FEEFA985-54A9-8946-BFB4-9FF6D170F3B3" name="Character_Attributes">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>93C93D4F-D2AC-CF8A-0E7B-C8EC54F3196A</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Attributes_id" id="3EE34A0C-15FB-E6C5-2E05-2871D41F7EC4">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>DB587B5C-1D96-48AA-B2E9-C10BC5A92E61</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Strength" id="DD81CF9A-C6B5-75C7-529F-61391DB90F59">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>9A84EE72-36BF-103E-F529-B26BA82E19BC</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Agility" id="59E36F2C-F4E4-75A7-47DC-03CD0512EF1F">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>3F298707-ED19-674D-F08F-22DC71EBE731</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Intelligence" id="1D88D098-DC36-DE90-0BFA-D444680599AE">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>ED1E9834-ECCD-8598-F0BA-75E50C6E646F</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Characters_Character_Id" id="C63A3F72-7278-DE6E-F603-0794B1D0C158">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>3BF551F8-9EEF-6768-C1E4-D004B16C0EDF</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3511E4DE-07C9-818D-B82E-CDC1D2504FF4" referredColumn="3E14D59D-B569-34E0-D5FA-5A84A006FECD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2623D990-98DE-36BA-6F65-1B606109540E" name="Character_Attributes_PK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>C6E24286-FF8E-F911-B9FF-E1D7DF5D782F</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EE34A0C-15FB-E6C5-2E05-2871D41F7EC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8CFBF06-246A-E28A-F2DA-93F1EF17E4CA" name="Character_Attributes__IDX">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D338E3A8-6481-FD12-C566-C4C33DDF0B2A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C63A3F72-7278-DE6E-F603-0794B1D0C158"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FECAD70F-3EF7-14CB-E368-B49E8CEEA999" name="Character_Attributes_Characters_FK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>D338E3A8-6481-FD12-C566-C4C33DDF0B2A</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C63A3F72-7278-DE6E-F603-0794B1D0C158"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

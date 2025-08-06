@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="271A03E2-A801-033C-6A44-AB04F01953C4" containerWithKeyObject="EF24D6D3-F0E5-3C99-9FF6-1B7A51725985" localFKIndex="055467BC-8A2C-7E6B-FE02-FE2B783236E7" name="NPC_Races_FK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>30DC01A8-65AF-B517-88C0-21C61FAE530D</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<referredTableLongName>Races</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>26DF17B4-AF46-E798-28E7-8B99B5367100</referredTableID>
+<keyObject>5ABD503F-2195-38E0-1511-6C47033DF53B</keyObject>
+<referredKeyID>5ABD503F-2195-38E0-1511-6C47033DF53B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Race_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

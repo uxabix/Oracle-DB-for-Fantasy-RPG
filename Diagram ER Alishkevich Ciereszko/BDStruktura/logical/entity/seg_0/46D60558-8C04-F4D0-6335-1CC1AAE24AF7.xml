@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="46D60558-8C04-F4D0-6335-1CC1AAE24AF7" name="Pet_Skills">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 21:16:53 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Pet_skill_id" id="C0E5A29D-829D-5A1C-A4F5-8102883D5E3E">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 22:02:14 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Skill_level" id="CFF1CB45-3EE1-4CC1-9C1A-92259D6FDA8D">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 22:02:34 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Skill_id" id="C489B852-B75D-78C7-45A2-CDC61ABE859A">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 21:58:39 UTC</createdTime>
+<generatorID>9FFD4476-E5BD-0EC9-5E97-CBDC734D1F4A</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<referedAttribute>E86B1249-17BB-5DCB-4625-824633F7D76A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pet_id" id="3849A1F9-96B0-FC4D-EED8-817EF6273704">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 22:02:12 UTC</createdTime>
+<generatorID>7D2BD6F9-ED8E-5B2D-1D64-F8331BBD0E41</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<referedAttribute>44087D11-E30D-7B77-A8C0-EE9BC4C09704</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21756D28-6685-2374-E119-1FBC65A65293" name="Pet_Skills PK">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 22:02:31 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C0E5A29D-829D-5A1C-A4F5-8102883D5E3E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

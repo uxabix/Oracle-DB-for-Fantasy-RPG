@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6117EECA-9099-D2FB-0F19-0F49D757FA74" name="Dungeons">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>236E3EAD-C770-EA9F-FF1C-98F2FECE31DE</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Dungeon_id" id="D8A701FA-E83A-8CB8-75E2-2AE034022EEF">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>FC0E4121-301F-9F84-F090-64A79890CA2C</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dungeon_name" id="CFA3D394-F4CD-A8E8-6872-78D3B01D560C">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>1ABA0867-421C-BA9F-48B7-0ACD15D35464</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Monsters_Monster_id" id="EC617FE6-92AE-1065-4424-F2E4383F2D12">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>5E2D8D10-9A66-EE24-69F7-EC555F6D9616</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74051303-A5EC-A589-7750-285A5540275D" referredColumn="9B3E604D-14E0-CCCC-8305-008001B8799C"/>
+</associations>
+</Column>
+<Column name="Locations_Location_id" id="C60ADFF7-CE38-DF9D-6F71-0871CEA94636">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>137EE3CE-2ABE-C537-5216-9EAA1368450E</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0887B982-D353-67E9-7399-340C2BE99E20" referredColumn="4578E228-F91A-B044-E3E1-F869B8680D08"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D50023A-0D59-63B8-4073-A6FEB9DE8FCC" name="Dungeons_PK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>17438C4A-7506-1B52-4344-3B79D428D642</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8A701FA-E83A-8CB8-75E2-2AE034022EEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18E1197F-72B9-79F1-3819-16EF605DC278" name="Dungeons__IDX">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E6852C7B-9BCE-43D5-BED6-4F667008EE4B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C60ADFF7-CE38-DF9D-6F71-0871CEA94636"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E12A382-70EF-C131-4E1E-F9018286DE64" name="Dungeons_Monsters_FK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>9F6E8C8A-3BA5-A6C2-FDB3-9DF85F0FD0BF</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC617FE6-92AE-1065-4424-F2E4383F2D12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14418118-6E24-592D-B85E-552968B7F2FB" name="Dungeons_Locations_FK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>E6852C7B-9BCE-43D5-BED6-4F667008EE4B</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C60ADFF7-CE38-DF9D-6F71-0871CEA94636"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0809D2AC-C48E-5C0B-94E5-AAF53C7E70B7" containerWithKeyObject="DCC922D7-C56E-7986-B526-46294FACD44C" localFKIndex="CB580E16-2826-3889-D828-E270262C0D88" name="Character_Achivements_Achivements_FK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>58E406C7-4A1E-300C-24B0-916AFFCE9FFC</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<referredTableLongName>Achivements</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E3DCCD5D-AA70-FA94-0245-89CA48C14B03</referredTableID>
+<keyObject>D9BCEBB6-A2E9-40BA-E0C6-22D1AC737420</keyObject>
+<referredKeyID>D9BCEBB6-A2E9-40BA-E0C6-22D1AC737420</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Achivement_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

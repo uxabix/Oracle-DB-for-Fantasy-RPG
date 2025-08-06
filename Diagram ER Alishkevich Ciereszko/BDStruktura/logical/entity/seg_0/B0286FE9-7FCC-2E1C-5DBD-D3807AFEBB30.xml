@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B0286FE9-7FCC-2E1C-5DBD-D3807AFEBB30" name="Characters">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-12 20:25:02 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Character_Id" id="BA43B910-6BF6-0D48-1302-E8B2886AB7D5">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-12 20:25:14 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="79110730-3590-32E7-93B3-29CCF21912A9">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-12 20:26:28 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Level" id="171262F2-78D9-46EC-B2B0-B8D5A62EDA09">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-12 20:27:23 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Experience_Points" id="E2DC8F2F-A6F0-6F6A-86E6-6E40FB9C823D">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-12 20:27:35 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Health_Points" id="FDB500AA-C380-D7EE-CE58-A9B8F6E78EE4">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-12 20:28:22 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mana_Points" id="A8318FB8-30EC-A7D9-6BFA-7365484F5C64">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-12 20:28:42 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_id" id="76329A61-6309-C1FC-1142-55E9C1BA380C">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-12 20:53:21 UTC</createdTime>
+<generatorID>E0E25D32-3AEE-583E-CE63-7BD2CF455B60</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<referedAttribute>E35B08AD-704F-912D-DC13-6687FBEA321F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Race_id" id="6A94F9CD-C137-FD1C-C1A1-12024AFCF053">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 21:36:41 UTC</createdTime>
+<generatorID>8E7EFBF1-127F-55A1-1E8F-D4F9AF6B9A77</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<referedAttribute>7DEE8313-9704-DF82-DA1B-84CD9FE69B3B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Class_id" id="91D430AA-DFB9-D335-576D-DBF53C25173F">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 21:38:24 UTC</createdTime>
+<generatorID>41461D2D-21BC-4574-55EC-93D12337DE39</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<referedAttribute>09BC817C-AED2-01E2-A88A-8A0C62D85A1F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Attributes_id" id="95E3DA5E-FD3C-9612-BD56-A44DD7986938">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 21:50:13 UTC</createdTime>
+<generatorID>D338E3A8-6481-FD12-C566-C4C33DDF0B2A</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<referedAttribute>DB587B5C-1D96-48AA-B2E9-C10BC5A92E61</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DEB8A2B1-C577-15C5-C21D-E0CF99B8E326" name="Characters PK">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-12 20:25:47 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>BA43B910-6BF6-0D48-1302-E8B2886AB7D5</newElementsIDs>
+<usedAttributes>
+<attributeRef>BA43B910-6BF6-0D48-1302-E8B2886AB7D5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

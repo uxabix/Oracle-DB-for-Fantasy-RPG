@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="965546FB-8E46-0660-4D0D-9E830C36E62D" containerWithKeyObject="98D7DB7D-683D-4E01-EFE4-7A43C77F1DDE" localFKIndex="5511DEA7-AD02-1180-74F1-A4590FDFD469" name="Quests_Locations_FK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>7D4318FE-67F3-B220-A847-8EEE7C14885D</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<referredTableLongName>Locations</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3F7465F0-CDE0-3857-2ABC-03B62B0168E2</referredTableID>
+<keyObject>B801D6E1-65A3-5989-7363-C038F045403F</keyObject>
+<referredKeyID>B801D6E1-65A3-5989-7363-C038F045403F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Location_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

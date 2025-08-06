@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9DF7F50C-72B8-6435-EF3E-6D4A7D638BC3" name="NPC">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 10:49:13 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NPC_id" id="E316E0AC-37BD-F6EC-5086-DCFF17E8E8C2">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 22:07:00 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NPC_name" id="CA34FDDA-EE6C-29C8-69ED-1D3ED09B73A1">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-17 08:54:38 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Behavior" id="8D4090AE-D87F-66C4-D0C1-622CF9FDCE2F">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-17 08:54:52 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Race_id" id="E97FE676-B146-F643-5DA7-2AC8DEA27498">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 21:36:41 UTC</createdTime>
+<generatorID>30DC01A8-65AF-B517-88C0-21C61FAE530D</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<referedAttribute>7DEE8313-9704-DF82-DA1B-84CD9FE69B3B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Location_id" id="DAE349D6-0CF5-1632-DA03-066B9DCE9E82">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-17 08:42:06 UTC</createdTime>
+<generatorID>B771F8AC-D9BD-DA7A-8329-E2FBF0D2D9C5</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<referedAttribute>6D0055C4-8C88-8E58-9F11-D8C5B3D929EA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FEE3FC90-608F-D312-F6B8-F2A89CED5B9A" name="NPC PK">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 22:07:06 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E316E0AC-37BD-F6EC-5086-DCFF17E8E8C2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

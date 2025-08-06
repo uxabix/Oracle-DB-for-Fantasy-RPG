@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A65AF418-5BA9-4DFA-0A8E-8004F8BD0F14" name="Guild_Memberships">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 10:49:24 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Guild_membership_id" id="FD4D471C-70DD-AD3E-0DFD-8240A29B116F">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-17 08:46:43 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Join_date" id="BA7DAA8F-2BEE-8101-9AE3-2A4C640B37FD">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-17 08:49:12 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rank" id="57261AFA-AE40-F88F-1011-32730924C348">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-17 08:49:31 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Guild_id" id="5CBA85FF-33CE-EFE4-BFA7-A0C8F5611E71">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-17 08:46:32 UTC</createdTime>
+<generatorID>C73036C7-12A3-4ACA-7A63-6AC9AB09BBE9</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<referedAttribute>19B06AE5-FBB8-10D9-6259-2F467D9D6DE8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Character_Id" id="6A397A5B-F0F0-86A9-1232-38EFFDF0EC2A">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-17 08:48:47 UTC</createdTime>
+<generatorID>B7205F89-D23E-9660-806A-3BDCECBEFE93</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<referedAttribute>BA43B910-6BF6-0D48-1302-E8B2886AB7D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="90ACBD13-FFDC-6056-7029-9706AEB9F171" name="Guild_Memberships PK">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-17 08:46:51 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FD4D471C-70DD-AD3E-0DFD-8240A29B116F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

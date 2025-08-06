@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57845D0E-AA6D-13E6-3B26-4530A2F2EE0A" name="Pet_Attributes">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>3BDAB472-177C-773D-B578-9ABB05209779</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pet_attributes_id" id="A17D2C76-7C0F-A2D2-6634-7FC2AE252872">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>B74DD17E-8448-0B4F-7E01-6B2E5F0A35AB</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Healing_Boost" id="8B2F3700-3DD0-D6EE-B810-E2BC350E3B62">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>CEF75E70-EE55-1B25-BAD1-5D8F72A980D7</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mana_Boost" id="E52E8E41-F341-CD78-EEB5-CB29D67CF019">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>AFD94342-31D3-4D0C-ED2D-B7D1A52DBC93</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Speed_Boost" id="241F7709-EEA6-70E0-8637-52B39A104ABC">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>78E412FB-8E70-4594-B9E7-BB34556A0B94</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pets_Pet_id" id="E00D6649-05E4-EC4C-EAEA-04A60DC3E17C">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>2C0CD63D-CC09-7D9B-A3F4-A8D68240F64D</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="447F9E98-7D6B-4712-FBEA-E561F1342B3A" referredColumn="62D8D8C5-A35B-4FBA-1397-BC7450865CDB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D986123-CCD1-365E-15DF-576CB8EFF4BE" name="Pet_Attributes_PK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>6D339C96-F96C-08EE-FEBC-4CFF2D57D7E7</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A17D2C76-7C0F-A2D2-6634-7FC2AE252872"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCE386BD-9862-E304-DB74-C0AE3D1452C6" name="Pet_Attributes__IDX">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D155B1B8-C630-78D1-A95C-7A04B1CA5CA1</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E00D6649-05E4-EC4C-EAEA-04A60DC3E17C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="17AB37F2-AA61-3179-A73B-2393E073D1C9" name="Pet_Attributes_Pets_FK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>D155B1B8-C630-78D1-A95C-7A04B1CA5CA1</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E00D6649-05E4-EC4C-EAEA-04A60DC3E17C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

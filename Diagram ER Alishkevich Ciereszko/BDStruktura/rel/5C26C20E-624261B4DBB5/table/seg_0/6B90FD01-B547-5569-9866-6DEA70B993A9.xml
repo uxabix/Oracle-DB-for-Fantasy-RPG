@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6B90FD01-B547-5569-9866-6DEA70B993A9" name="Pet_Skills">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>46D60558-8C04-F4D0-6335-1CC1AAE24AF7</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pet_skill_id" id="D6C6B737-E73F-2FC8-8EEC-B7DB40213DA5">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>C0E5A29D-829D-5A1C-A4F5-8102883D5E3E</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Skill_level" id="0CA5E5C8-DA65-AFE3-FD64-B011806F77A3">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>CFF1CB45-3EE1-4CC1-9C1A-92259D6FDA8D</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Skills_Skill_id" id="44F1E4CC-F96B-C4FE-C6A2-82A9F2E3FC18">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>C489B852-B75D-78C7-45A2-CDC61ABE859A</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B1015C5-0D56-A9BF-95A6-938941E81986" referredColumn="96F46EF5-A7A3-2B24-4972-D1AAC36BE03E"/>
+</associations>
+</Column>
+<Column name="Pets_Pet_id" id="8B528726-E537-799F-E53A-B6828BF615B0">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>3849A1F9-96B0-FC4D-EED8-817EF6273704</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3FEDEEC5-639E-FD99-4ED0-8B124B3520E2" referredColumn="62D8D8C5-A35B-4FBA-1397-BC7450865CDB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34F3CBC8-89BB-B67F-4A59-F3D785DBD3BE" name="Pet_Skills_PK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>21756D28-6685-2374-E119-1FBC65A65293</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6C6B737-E73F-2FC8-8EEC-B7DB40213DA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89AB69F1-A1F6-CBA4-5C09-6F73C888952A" name="Pet_Skills_Skills_FK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>9FFD4476-E5BD-0EC9-5E97-CBDC734D1F4A</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44F1E4CC-F96B-C4FE-C6A2-82A9F2E3FC18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD51698B-9F84-7793-7CD4-FC9612551122" name="Pet_Skills_Pets_FK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>7D2BD6F9-ED8E-5B2D-1D64-F8331BBD0E41</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B528726-E537-799F-E53A-B6828BF615B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

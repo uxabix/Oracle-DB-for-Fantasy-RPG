@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0887B982-D353-67E9-7399-340C2BE99E20" containerWithKeyObject="6117EECA-9099-D2FB-0F19-0F49D757FA74" localFKIndex="14418118-6E24-592D-B85E-552968B7F2FB" name="Dungeons_Locations_FK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>E6852C7B-9BCE-43D5-BED6-4F667008EE4B</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<referredTableLongName>Locations</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3F7465F0-CDE0-3857-2ABC-03B62B0168E2</referredTableID>
+<keyObject>B801D6E1-65A3-5989-7363-C038F045403F</keyObject>
+<referredKeyID>B801D6E1-65A3-5989-7363-C038F045403F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Location_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

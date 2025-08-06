@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="81596023-5181-27BC-1DAF-D0EFAFF7EEF9" name="Inventory_Slots">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-12 20:21:10 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Inventory_slot_Id" id="CE7B38D1-9B70-F71A-E3F6-7EA70E57426F">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-12 20:21:29 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Character_Id" id="7805983D-DDE0-2D45-8538-BF2EFE0393CB">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-12 20:22:08 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Item_id" id="BE6A4821-A55D-E9D0-445A-7028028917F3">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 21:41:03 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Quantity" id="8402E2D6-FBAA-5D74-7EEC-3C7BD32CFAA2">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 21:42:12 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Character_Id1" id="C4808E12-20C0-06B8-9732-E9CC74903A06">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 11:22:13 UTC</createdTime>
+<generatorID>A4973215-28D3-F0EA-490B-5729A0232644</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<referedAttribute>BA43B910-6BF6-0D48-1302-E8B2886AB7D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Item_id1" id="262710D2-3380-E248-CEB8-DD69D42DE6DA">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-16 21:52:56 UTC</createdTime>
+<generatorID>64085001-8C6E-E417-1D06-86099105D72B</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<referedAttribute>73F4CE97-BD71-C630-1936-8665A5BE1B99</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="30CE2F41-575F-3382-8D97-E950A2763694" name="Inventory PK">
+<createdBy>kiril</createdBy>
+<createdTime>2024-12-12 20:22:13 UTC</createdTime>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<engineerTo>
+<item key="5C26C20E-DAEA-D286-E478-624261B4DBB5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CE7B38D1-9B70-F71A-E3F6-7EA70E57426F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

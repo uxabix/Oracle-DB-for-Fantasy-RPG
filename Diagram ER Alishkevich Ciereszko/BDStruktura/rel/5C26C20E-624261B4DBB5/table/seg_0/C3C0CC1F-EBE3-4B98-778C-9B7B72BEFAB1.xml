@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3C0CC1F-EBE3-4B98-778C-9B7B72BEFAB1" name="Inventory_Slots">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>81596023-5181-27BC-1DAF-D0EFAFF7EEF9</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Inventory_slot_Id" id="513E3788-4C20-1694-9113-1CB00C27F5FD">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>CE7B38D1-9B70-F71A-E3F6-7EA70E57426F</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Character_Id" id="B4882B94-889E-7CD9-5618-129BDBFB7FFA">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>7805983D-DDE0-2D45-8538-BF2EFE0393CB</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Item_id" id="52A9E634-27DA-65DE-AFE2-C65559E04F7F">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>BE6A4821-A55D-E9D0-445A-7028028917F3</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quantity" id="A9403EF5-6608-4989-9092-9D1B50294D8D">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>8402E2D6-FBAA-5D74-7EEC-3C7BD32CFAA2</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Characters_Character_Id" id="2A71A211-B06E-B2BA-901B-491E3BEFBDDF">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>C4808E12-20C0-06B8-9732-E9CC74903A06</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F4AF924-0888-1B1F-6F98-EE9370EAB4B9" referredColumn="3E14D59D-B569-34E0-D5FA-5A84A006FECD"/>
+</associations>
+</Column>
+<Column name="Items_Item_id" id="23D9E6E8-04FF-13DB-7B76-0F622ECC06DA">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>262710D2-3380-E248-CEB8-DD69D42DE6DA</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE3E3308-8785-45CF-B0B8-65C4E5FCD891" referredColumn="CF9BB6C2-26C0-82E5-3E14-6266E618AAEB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6556C503-2439-F04C-1B8A-608B41100804" name="Inventory_Slots_PK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>30CE2F41-575F-3382-8D97-E950A2763694</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="513E3788-4C20-1694-9113-1CB00C27F5FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6A6D26A-0DBD-4D77-5E49-1F8FBDDCEE60" name="Inventory_Slots_Characters_FK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>A4973215-28D3-F0EA-490B-5729A0232644</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A71A211-B06E-B2BA-901B-491E3BEFBDDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2523F520-719E-B4C8-B573-7000A3E1FEBF" name="Inventory_Slots_Items_FK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>64085001-8C6E-E417-1D06-86099105D72B</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23D9E6E8-04FF-13DB-7B76-0F622ECC06DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

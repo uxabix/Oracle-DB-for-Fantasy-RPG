@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DCC922D7-C56E-7986-B526-46294FACD44C" name="Character_Achivements">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>47F729AB-AA1B-19FA-0101-47FA86274C67</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Character_achivement_id" id="AD418EF4-F104-52AD-1087-9FA0775982C0">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>C4CB0F69-A81B-CB53-FB1F-CB7BD5C347B5</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date_unlocked" id="02CAA035-3133-16C4-BEE1-889BDC85D03E">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>D5A3EFAF-C16E-8CA1-7FB1-29B0292B927D</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Characters_Character_Id" id="60C43DEB-55B9-8BD5-5C63-272F12162E88">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>CDA8C302-B824-0BA3-5CD5-4ED634C4C0DA</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF382820-665F-0A72-923A-74701D216EFC" referredColumn="3E14D59D-B569-34E0-D5FA-5A84A006FECD"/>
+</associations>
+</Column>
+<Column name="Achivements_Achivement_id" id="16FAB796-7280-3B68-D81D-3197DE53B02F">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>D10C8950-E891-C3C8-B9BA-907EBDDCCEFF</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0809D2AC-C48E-5C0B-94E5-AAF53C7E70B7" referredColumn="264D4B7A-2648-9780-0C68-946015307A3F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4905F40-B454-7CB8-73F9-4CCAC29B7F0E" name="Character_Achivements_PK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>F64977C0-6B1A-E057-DB19-1EFAC8A63B91</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD418EF4-F104-52AD-1087-9FA0775982C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB580E16-2826-3889-D828-E270262C0D88" name="Character_Achivements_Achivements_FK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>58E406C7-4A1E-300C-24B0-916AFFCE9FFC</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16FAB796-7280-3B68-D81D-3197DE53B02F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD26E941-7CCF-0EC6-E48A-A91E3089F1A0" name="Character_Achivements_Characters_FK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>309A39AE-EFB4-2330-E1E9-EF9AA08F97BD</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60C43DEB-55B9-8BD5-5C63-272F12162E88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

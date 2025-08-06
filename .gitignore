@@ -1,0 +1,6 @@
+# Oracle SQL Developer Data Modeler user-specific files
+**/*.local
+**/*.localz
+
+# macOS specific files
+.DS_Store

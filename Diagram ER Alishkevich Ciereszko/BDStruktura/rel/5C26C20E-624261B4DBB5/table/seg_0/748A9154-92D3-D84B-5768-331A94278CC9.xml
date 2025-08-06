@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="748A9154-92D3-D84B-5768-331A94278CC9" name="Guild_Memberships">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>A65AF418-5BA9-4DFA-0A8E-8004F8BD0F14</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Guild_membership_id" id="6AD5F62B-3BC8-4194-9820-1896011625F4">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>FD4D471C-70DD-AD3E-0DFD-8240A29B116F</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Join_date" id="DD16FC8E-CB12-1E93-43BB-019CE7E26ED1">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>BA7DAA8F-2BEE-8101-9AE3-2A4C640B37FD</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rank" id="6573A5C7-F77A-FB21-8590-DADA3CFAA377">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>57261AFA-AE40-F88F-1011-32730924C348</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Guilds_Guild_id" id="5C6DFB25-5B54-8DF5-C907-AE2E42BF23CD">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>5CBA85FF-33CE-EFE4-BFA7-A0C8F5611E71</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB3F6FA1-A47E-21DF-C98D-F4ACD7AF28BF" referredColumn="A6A785C3-7444-DD7B-A12C-98ECBCD46253"/>
+</associations>
+</Column>
+<Column name="Characters_Character_Id" id="F28D5939-9B39-0BB6-45EC-065BD9118E38">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>6A397A5B-F0F0-86A9-1232-38EFFDF0EC2A</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB68570B-CC25-F5D4-B98C-431F5E84E3B5" referredColumn="3E14D59D-B569-34E0-D5FA-5A84A006FECD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F99A084C-F6DA-0227-B71E-DEA26DEC6CF8" name="Guild_Memberships_PK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>90ACBD13-FFDC-6056-7029-9706AEB9F171</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AD5F62B-3BC8-4194-9820-1896011625F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC20CC9F-ACAC-223B-A3E5-CF45E8348616" name="Guild_Memberships_Guilds_FK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>C73036C7-12A3-4ACA-7A63-6AC9AB09BBE9</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C6DFB25-5B54-8DF5-C907-AE2E42BF23CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70A3E507-0235-E42E-92FB-68C902D94874" name="Guild_Memberships_Characters_FK">
+<createdBy>kiril</createdBy>
+<createdTime>2025-01-20 18:38:23 UTC</createdTime>
+<generatorID>B7205F89-D23E-9660-806A-3BDCECBEFE93</generatorID>
+<ownerDesignName>BDStruktura</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F28D5939-9B39-0BB6-45EC-065BD9118E38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
