@@ -2,6 +2,8 @@
 
 This project is a comprehensive database schema for a Role-Playing Game (RPG), designed using Oracle SQL Data Modeler. It serves as a university portfolio piece for a course in database management. The database is designed to handle all core aspects of an RPG, including user accounts, characters, skills, items, quests, and game world interactions.
 
+![ER Diagram](Diagram%20ER%20Alishkevich%20Ciereszko/Relational_1.svg)
+
 ## Project Details
 
 -   **Course:** Bazy Danych (Databases)
@@ -59,3 +61,7 @@ To set up the database, you will need access to an Oracle Database instance.
 
 4.  **Explore the Model:**
     To view or modify the data model, open the `Diagram ER Alishkevich Ciereszko/BDStruktura.dmd` file using Oracle SQL Data Modeler.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This work was created as part of coursework at Bialystok University of Technology for educational and research purposes. When using or referencing this work, please provide appropriate attribution.
